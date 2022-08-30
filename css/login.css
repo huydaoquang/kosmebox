@@ -1,560 +1,545 @@
-@import url('https://fonts.googleapis.com/css?family=Arial');
-@import url('https://fonts.googleapis.com/css?family=Sofia');
-@import url('https://fonts.googleapis.com/css?family=Trirong');
+@import url("https://fonts.googleapis.com/css?family=Arial");
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+@import url("https://fonts.googleapis.com/css?family=Trirong");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    background: #fff;
-
+  font-family: "Arial", sans-serif;
+  background: #fff;
 }
 
 ::-webkit-scrollbar {
-    width: 18px;
+  width: 15px;
 }
 
 ::-webkit-scrollbar-track {
-    background: #dddddd;
+  background: #dddddd;
 }
 
 ::-webkit-scrollbar-thumb {
-    width: 100%;
-    height: 400px;
-    background:rgb(223, 12, 33);
-    border-radius: 15px;
+  height: 200px;
+  background: rgb(12, 223, 206);
+  border-radius: 10px;
 }
 
 /* header  */
 
 header {
-    width: 100%;
-    height: 95px;
-    padding-left: 120px;
-    padding-bottom: 20px;
-    position: relative;
-    margin-bottom: 20px;
+  width: 100%;
+  height: 95px;
+  padding-left: 120px;
+  padding-bottom: 20px;
+  position: relative;
+  margin-bottom: 20px;
 }
 
 header ul {
-    text-align: right;
-    padding-right: 40px;
-    padding-top: 5px;
+  text-align: right;
+  padding-right: 40px;
+  padding-top: 5px;
 }
 
 header ul li {
-    display: inline-block;
-
+  display: inline-block;
 }
 
 header ul li a {
-    font-size: 13px;
-    color: #000;
-    margin-right: 20px;
-
+  font-size: 13px;
+  color: #000;
+  margin-right: 20px;
 }
 
 header ul li a i {
-    padding-right: 8px;
-    font-size: 15px;
-
+  padding-right: 8px;
+  font-size: 15px;
 }
 
 header ul li a span {
-    color: rgb(232, 9, 13);
+  color: rgb(232, 9, 13);
 }
 
 header .wrapper {
-    position: absolute;
-    top: 30px;
+  position: absolute;
+  top: 30px;
 }
 
 header .wrapper .logo {
-    font-size: 32px;
-    font-weight: 600;
-    font-family: 'Sofia', sans-serif;
-    letter-spacing: 5px;
-    color: rgb(232, 9, 124);
+  font-size: 32px;
+  font-weight: 600;
+  font-family: "Sofia", sans-serif;
+  letter-spacing: 5px;
+  color: rgb(232, 9, 124);
 }
 
 header .wrapper h4 {
-    position: absolute;
-    width: 100%;
-    top: 20px;
-    padding-left: 10px;
-    color: rgb(21, 200, 21);
-    font-size: 17px;
-    font-weight: 600;
+  position: absolute;
+  width: 100%;
+  top: 20px;
+  padding-left: 10px;
+  color: rgb(21, 200, 21);
+  font-size: 17px;
+  font-weight: 600;
 }
 
 header .search {
-    padding-left: 300px;
+  padding-left: 300px;
 }
 
-header .search input[type=text] {
-    position: absolute;
-    top: 55px;
-    width: 400px;
-    opacity: 80%;
-    padding: 12px 15px;
-    border-radius: 25px;
-    border: none;
-    outline: none;
-    border: 1px solid rgb(232, 9, 124);
+header .search input[type="text"] {
+  position: absolute;
+  top: 55px;
+  width: 400px;
+  opacity: 80%;
+  padding: 12px 15px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  border: 1px solid rgb(232, 9, 124);
 }
 
 header .search input::placeholder {
-    color: #000;
-    font-size: 15px;
-    font-weight: 500;
+  color: #000;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 header .search i {
-    position: absolute;
-    font-size: 28px;
-    font-weight: bold;
-    color: rgb(232, 9, 124);
-    top: 62px;
-    right: 710px;
-    cursor: pointer;
-
+  position: absolute;
+  font-size: 28px;
+  font-weight: bold;
+  color: rgb(232, 9, 124);
+  top: 62px;
+  right: 710px;
+  cursor: pointer;
 }
 
 header .content-icon-left {
-    position: absolute;
-    width: 95px;
-    right: 560px;
-    top: 55px;
-    text-align: right;
-
+  position: absolute;
+  width: 95px;
+  right: 560px;
+  top: 55px;
+  text-align: right;
 }
 
 header .content-icon-left img {
-    position: absolute;
-    width: 65px;
-    left: -15px;
-    top: -20px;
+  position: absolute;
+  width: 65px;
+  left: -15px;
+  top: -20px;
 }
 
-header .content-icon-left  a,
-header .content-icon-right  a {
-    color: #000000;
-    font-size: 12px;
-    font-weight: 200;
-    font-family: 'Trirong', sans-serif;
-    opacity: 80%;
+header .content-icon-left a,
+header .content-icon-right a {
+  color: #000000;
+  font-size: 12px;
+  font-weight: 200;
+  font-family: "Trirong", sans-serif;
+  opacity: 80%;
 }
-
 
 header .content-icon-right {
-    position: absolute;
-    width: 50px;
-    right: 420px;
-    top: 55px;
+  position: absolute;
+  width: 50px;
+  right: 420px;
+  top: 55px;
 }
 
 header .content-icon-right i {
-    position: absolute;
-    font-size: 35px;
-    left: -50px;
-    bottom: 5px;
-    color: rgb(232, 9, 124);
-
+  position: absolute;
+  font-size: 35px;
+  left: -50px;
+  bottom: 5px;
+  color: rgb(232, 9, 124);
 }
 
 header .cart {
-    position: absolute;
-    width: 60px;
-    right: 130px;
-    bottom: -13px;
+  position: absolute;
+  width: 60px;
+  right: 130px;
+  bottom: -13px;
 }
 
 header .cart i {
-    position: absolute;
-    left: 5px;
-    bottom: 0px;
-    color: rgb(232, 9, 124);
-    font-size: 40px;
-    cursor: pointer;
+  position: absolute;
+  left: 5px;
+  bottom: 0px;
+  color: rgb(232, 9, 124);
+  font-size: 40px;
+  cursor: pointer;
 }
 
 header .cart .button {
-    padding: 10px 10px;
-    background: #fff;
-    color: #000;
-    opacity: 0;
+  padding: 10px 10px;
+  background: #fff;
+  color: #000;
+  opacity: 0;
 }
 
 /* Navigation Menu */
 
 nav {
-    float: left;
-    background: rgb(244, 40, 91);
-    position: relative;
-    width: 100%;
-    z-index: 999;
-    height: 45px;
-    line-height: 45px;
+  float: left;
+  background: rgb(244, 40, 91);
+  position: relative;
+  width: 100%;
+  z-index: 999;
+  height: 45px;
+  line-height: 45px;
 }
 
 nav .wrapper {
-    position: relative;
-    max-width: 1300px;
-    padding: 0 30px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  position: relative;
+  max-width: 1300px;
+  padding: 0 30px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .wrapper .logo a {
-    margin-left: -10px;
-    color: #f2f2f2;
-    font-size: 25px;
-    font-weight: 600;
+  margin-left: -10px;
+  color: #f2f2f2;
+  font-size: 25px;
+  font-weight: 600;
 }
 
 .wrapper .nav-links {
-    display: inline-flex;
+  display: inline-flex;
 }
 
 .nav-links li a {
-    color: #f2f2f2;
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: 600;
-    padding: 9px 12px;
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 9px 12px;
 }
 
 .nav-links li a i {
-    font-size: 25px;
-    color: gold;
-    padding-left: 115px;
-    padding-right: 5px;
+  font-size: 25px;
+  color: gold;
+  padding-left: 115px;
+  padding-right: 5px;
 }
 
 .nav-links li a:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .nav-links li:hover .drop-menu,
 .nav-links li:hover .mega-box {
-    top: 45px;
-    opacity: 1;
-    visibility: visible;
-    transition: all 0.5s ease;
+  top: 45px;
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.5s ease;
 }
 
-
 .mega-box {
-    position: absolute;
-    top: 70px;
-    width: 100%;
-    left: 0;
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.3s ease;
+  position: absolute;
+  top: 70px;
+  width: 100%;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
 }
 
 .mega-box .content {
-    background: #fff;
-    padding: 25px 20px;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
+  background: #fff;
+  padding: 25px 20px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .content .row {
-    width: 17%;
-    line-height: 35px;
+  width: 17%;
+  line-height: 35px;
 }
 
 .content .row.trademark {
-    width: 32%;
-    line-height: 35px;
-
+  width: 32%;
+  line-height: 35px;
 }
 
 .mega-box .content.beautify {
-    width: 100%;
+  width: 100%;
 }
 
 .content.beautify .row.beautify {
-    width: 25%;
+  width: 25%;
 }
 
 .content.beautify .row.beautify h3 {
-    margin-top: -5px;
+  margin-top: -5px;
 }
 
 .content.beautify .row.beautify .mega-link.beautify li a {
-    width: 450px;
-    display: block;
-    float: left;
+  width: 450px;
+  display: block;
+  float: left;
 }
 
 .content .row img {
-    margin: 10px 5px;
-    width: 170px;
-    height: 120px;
-    display: inline-block;
+  margin: 10px 5px;
+  width: 170px;
+  height: 120px;
+  display: inline-block;
 }
 
 .content .row h3 {
-    width: 92%;
-    height: 35px;
-    margin-top: 12px;
-    padding-left: 10px;
-    background: rgb(216, 6, 58);
-    color: #fff;
-    font-size: 16px;
-    font-weight: 600;
+  width: 92%;
+  height: 35px;
+  margin-top: 12px;
+  padding-left: 10px;
+  background: rgb(216, 6, 58);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .content .row .mega-link {
-    margin-left: -100px;
+  margin-left: -100px;
 }
 
 .content .row:nth-child(1),
 .content .row:nth-child(2) {
-    border-left: 0px;
+  border-left: 0px;
 }
 
 .row .mega-link li {
-    float: left;
-    width: 300px;
-    padding: 0 20px;
+  float: left;
+  width: 300px;
+  padding: 0 20px;
 }
 
 .row .mega-link li a {
-    display: block;
-    margin-left: -55px;
-    color: #242526;
-    padding: 0px 20px;
-    font-size: 14px;
-    font-weight: 500;
+  display: block;
+  margin-left: -55px;
+  color: #242526;
+  padding: 0px 20px;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .row .mega-link li .see-more {
-    font-size: 13px;
-    font-weight: 600;
+  font-size: 13px;
+  font-weight: 600;
 }
 
 .row .mega-link li a i {
-    margin-right: 3px;
-    font-size: 12px;
-    color: rgb(244, 40, 91);
+  margin-right: 3px;
+  font-size: 12px;
+  color: rgb(244, 40, 91);
 }
 
 .row .mega-link li a:hover {
-    color: rgb(237, 12, 60);
-
+  color: rgb(237, 12, 60);
 }
 
 .nav-links .drop-menu {
-    background: #242526;
-    width: 200px;
-    top: 70px;
-    line-height: 45px;
-    position: absolute;
-    opacity: 0;
-    visibility: hidden;
+  background: #242526;
+  width: 200px;
+  top: 70px;
+  line-height: 45px;
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
 }
 
 .drop-menu li a {
-    width: 100%;
-    display: block;
-    padding: 0 0 0 15px;
-    font-weight: 400;
-    border-radius: 0;
+  width: 100%;
+  display: block;
+  padding: 0 0 0 15px;
+  font-weight: 400;
+  border-radius: 0;
 }
 
 .drop-menu li a:hover {
-    color: rgb(232, 9, 13);
+  color: rgb(232, 9, 13);
 }
 
 /* content  */
 
 .content {
-    float: left;
-    width: 45%;
-    padding: 25px 0 30px 0;
-    font-size: 15px;
+  float: left;
+  width: 45%;
+  padding: 25px 0 30px 0;
+  font-size: 15px;
 }
 
 .content.left {
-    padding-left: 130px;
+  padding-left: 130px;
 }
 
 .content.right {
-    padding-left: 60px;
+  padding-left: 60px;
 }
 
 .content .top {
-    border-bottom: 1px dotted #d2d2d2;
-
+  border-bottom: 1px dotted #d2d2d2;
 }
 
 .content .bottom {
-    padding: 10px 0;
-    padding-bottom: 20px;
+  padding: 10px 0;
+  padding-bottom: 20px;
 }
 
-.content form input[type=text] {
-    width: 100%;
-    padding: 8px 15px;
-    margin: 8px 0;
-    border: none;
-    outline: none;
-    border: 1px solid #d2d2d2;
-    border-radius: 5px;
-
+.content form input[type="text"] {
+  width: 100%;
+  padding: 8px 15px;
+  margin: 8px 0;
+  border: none;
+  outline: none;
+  border: 1px solid #d2d2d2;
+  border-radius: 5px;
 }
 
 .content form input::placeholder {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 14px;
-    font-weight: 540;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  font-weight: 540;
 }
 
 .content a {
-    color: #fff;
-    display: inline-block;
+  color: #fff;
+  display: inline-block;
 }
 
 .content .wrapper {
-    position: relative;
+  position: relative;
 }
 
 .content .wrapper i {
-    color: #fff;
-    font-size: 20px;
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
-    text-align: center;
-    border-radius: 50%;
-    background: rgb(45, 73, 230);
-    position: absolute;
-    top: 13.5px;
-    transform: translateX(20px);
+  color: #fff;
+  font-size: 20px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  border-radius: 50%;
+  background: rgb(45, 73, 230);
+  position: absolute;
+  top: 13.5px;
+  transform: translateX(20px);
 }
 
 .content .wrapper .fa-brands.fa-google {
-    font-size: 15px;
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
-    text-align: center;
-    border-radius: 50%;
-    background: rgb(195, 1, 1);
+  font-size: 15px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  border-radius: 50%;
+  background: rgb(195, 1, 1);
 }
 
 .content .wrapper .facebook {
-    margin: 10px 10px;
-    padding: 12px 55px;
-    padding-right: 120px;
-    background: rgb(35, 112, 219);
-    font-weight: 600;
+  margin: 10px 10px;
+  padding: 12px 55px;
+  padding-right: 120px;
+  background: rgb(35, 112, 219);
+  font-weight: 600;
 }
 
 .content .wrapper .google {
-    margin: 10px 10px;
-    padding: 12px 55px;
-    padding-right: 120px;
-    background: rgb(232, 9, 13);
-    font-weight: 600;
+  margin: 10px 10px;
+  padding: 12px 55px;
+  padding-right: 120px;
+  background: rgb(232, 9, 13);
+  font-weight: 600;
 }
 
 .content .facebook.left {
-    margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 .content .border.left {
-    border-bottom: 1.5px solid #d2d2d2;
+  border-bottom: 1.5px solid #d2d2d2;
 }
 
 .content .border.right {
-    border-bottom: 1.5px solid #d2d2d2;
+  border-bottom: 1.5px solid #d2d2d2;
 }
 
 .content .back {
-    color: rgb(237, 12, 60);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
-    text-decoration: underline;
-    padding-bottom: 10px;
-
+  color: rgb(237, 12, 60);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  text-decoration: underline;
+  padding-bottom: 10px;
 }
 
 .content .submit {
-    font-family: 'Times New Roman', Times, serif;
-    padding: 8px 20px;
-    margin: 18px 0;
-    background: rgb(246, 206, 3);
+  font-family: "Times New Roman", Times, serif;
+  padding: 8px 20px;
+  margin: 18px 0;
+  background: rgb(246, 206, 3);
 }
 
 /* footer  */
 
 .footer {
-    float: left;
-    width: 100%;
-    height: 500px;
-    background: #E4E4E4;
-    padding-left: 130px;
-    padding-top: 30px;
-    border-top: 3.5px solid rgb(226, 14, 60);
-    border-bottom: 1px solid #000;
+  float: left;
+  width: 100%;
+  height: 500px;
+  background: #e4e4e4;
+  padding-left: 130px;
+  padding-top: 30px;
+  border-top: 3.5px solid rgb(226, 14, 60);
+  border-bottom: 1px solid #000;
 }
 
 .footer .content {
-    float: left;
-    width: 19%;
+  float: left;
+  width: 19%;
 }
 
 .footer .content h3 {
-    padding-bottom: 30px;
-    font-size: 18px;
-    font-weight: bold;
+  padding-bottom: 30px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .footer .content ul li a {
-    color: #000;
-    font-size: 16px;
-    display: block;
-    padding: 3px 0;
-    transition: all 0.5s ease;
+  color: #000;
+  font-size: 16px;
+  display: block;
+  padding: 3px 0;
+  transition: all 0.5s ease;
 }
 
 .footer .content ul li a:hover {
-    color: rgb(237, 12, 60);
+  color: rgb(237, 12, 60);
 }
 
 .footer .content ul li {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .footer .content ul li span {
-    font-size: 17px;
-    font-weight: bold;
+  font-size: 17px;
+  font-weight: bold;
 }
 
 iframe {
-    float: left;
-    width: 100%;
-    height: 300px;
+  float: left;
+  width: 100%;
+  height: 300px;
 }
 
 .kosmebox {
-    float: left;
-    width: 100%;
-    padding: 35px 0;
-    text-align: center;
-    font-size: 16px;
+  float: left;
+  width: 100%;
+  padding: 35px 0;
+  text-align: center;
+  font-size: 16px;
 }
